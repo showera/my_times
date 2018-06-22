@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 header {
   /*字体*/
   font-family: Verdana;
@@ -164,3 +168,36 @@ p.non-title {
   padding: 10px 20px 10px 20px;
   width: auto;
 }
+
+/*footer*/
+
+footer {
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .top_line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top_line {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+/*.top_line p, .top_line li {
+  border: 1px solid;
+}*/
