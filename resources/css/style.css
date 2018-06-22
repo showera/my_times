@@ -51,6 +51,9 @@ p.non-title {
 
   border: 1px solid;
   padding: 30px;
+
+  font-family: Georgia;
+  font-size: 17px;
 }
 
 .large, .medium, .small {
@@ -81,4 +84,42 @@ p.non-title {
 
 .small img {
   display: inline;
+}
+
+/*set img background*/
+
+.pic {
+  display: flex;
+  height: 300px;
+  text-align: center;
+}
+
+#mother .pic {
+  text-align: left;
+  background-image: url("../medias/img-story-main.png");
+}
+
+#orca .pic {
+  background-image: url("../medias/img-story-2.png");
+}
+
+#burger .pic {
+  background-image: url("../medias/img-story-3.png");
+}
+
+#cats .pic{
+  background-image: url("../medias/img-story-1.png");
+}
+
+/*设置字体*/
+
+.pic p {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px 0px;
+}
+
+#mother .pic p {
+  font-size: 40px;
 }
