@@ -49,7 +49,7 @@ p.non-title {
   display: flex;
   justify-content: center;
 
-  border: 1px solid;
+  /*border: 1px solid;*/
   padding: 30px;
 
   font-family: Georgia;
@@ -61,8 +61,8 @@ p.non-title {
   flex-direction: column;
   justify-content: flex-start;
 
-  border: 1px solid;
-  margin-right: 30px;
+  /*border: 1px solid;*/
+  margin-right: 25px;
 }
 
 .large {
@@ -78,7 +78,7 @@ p.non-title {
 }
 
 .unit, .pic {
-  border: 1px solid;
+  /*border: 1px solid;*/
   margin: 0px 0px;
 }
 
@@ -122,4 +122,45 @@ p.non-title {
 
 #mother .pic p {
   font-size: 40px;
+}
+
+/*story column*/
+
+.story {
+  display: flex;
+  flex-flow: row;
+}
+
+#orca {
+  margin-right: 25px;
+}
+
+#orca, #burger {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+/*news bites*/
+
+#news_bites h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bites {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.bites p {
+  margin: 0px;
+  border-bottom: 1px solid;
+  padding: 10px 20px 10px 20px;
+  width: auto;
 }
