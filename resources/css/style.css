@@ -21,6 +21,19 @@ li {
   margin: 0px 13px;
 }
 
+p.title, p.non-title, p.with-title, .nav h2 {
+  border: 1px solid;
+}
+
+.nav h2 {
+  padding: 10px 10px 10px 0px;
+  border-bottom:white;
+}
+
+p.non-title {
+  padding: : 15px 0px;
+}
+
 .logo p {
   display: inline;
   color: MediumAquamarine;
@@ -28,4 +41,44 @@ li {
   /*调整垂直方向居中*/
   position: relative;
   top: -25px;
+}
+
+/*main part*/
+
+.column {
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid;
+  padding: 30px;
+}
+
+.large, .medium, .small {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  border: 1px solid;
+  margin-right: 30px;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+.unit, .pic {
+  border: 1px solid;
+  margin: 0px 0px;
+}
+
+.small img {
+  display: inline;
 }
